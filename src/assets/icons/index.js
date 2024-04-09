@@ -10,6 +10,8 @@ import twitter from "./x.svg";
 import menu from "./menu.svg";
 import copyrightSign from "./copyright-sign.svg";
 import arrowright from "./arrow-forward-outline.svg";
+import react from "./react.svg";
+
 export {
   facebook,
   facebookColor,
@@ -23,4 +25,5 @@ export {
   menu,
   arrowright,
   copyrightSign,
+  react,
 };

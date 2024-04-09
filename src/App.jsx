@@ -1,4 +1,5 @@
 import Nav from "./Components/Nav";
+import About from "./sections/About";
 import Hero from "./sections/Hero";
 
 export default function App() {
@@ -10,7 +11,9 @@ export default function App() {
       <section className="xl:padding-l  wide:padding-r padding-b">
         <Hero />
       </section>
-      <section className="padding">About me</section>
+      <section className="padding">
+        <About />
+      </section>
       <section className="padding">Education</section>
       <section className="padding">Experience</section>
       <section className="padding">Open source</section>

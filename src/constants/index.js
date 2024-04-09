@@ -1,26 +1,4 @@
-// import {
-//   facebook,
-//   instagram,
-//   shieldTick,
-//   support,
-//   truckFast,
-//   twitter,
-// } from "../assets/icons";
-// import {
-//   bigShoe1,
-//   bigShoe2,
-//   bigShoe3,
-//   customer1,
-//   customer2,
-//   shoe4,
-//   shoe5,
-//   shoe6,
-//   shoe7,
-//   thumbnailShoe1,
-//   thumbnailShoe2,
-//   thumbnailShoe3,
-// } from "../assets/images";
-
+import { react } from "../assets/icons";
 export const navLinks = [
   { href: "#home", label: "Home" },
   { href: "#about-me", label: "About Me" },
@@ -34,6 +12,37 @@ export const aboutMe = [
   {
     introduction:
       "Hello! I'm a coding wizard who crafts sleek, efficient software solutions.With a flair for innovation and an eye for detail,I turn complex ideas into elegant, user-friendly applicationsOverall, with my expertise in Next.js, React.js, Express.js, and MongoDB, I am equipped to tackle the challenges of full stack development",
+  },
+];
+
+export const skills = [
+  {
+    name: "React.js",
+    imageUrl: react,
+  },
+  {
+    name: "Next.js",
+    imageUrl: "",
+  },
+  {
+    name: "MongoDB",
+    imageUrl: "",
+  },
+  {
+    name: "Express.js",
+    imageUrl: "",
+  },
+  {
+    name: "Node.js",
+    imageUrl: "",
+  },
+  {
+    name: "talwindCSS",
+    imageUrl: "",
+  },
+  {
+    name: "HTML",
+    imageUrl: "",
   },
 ];
 
